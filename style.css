@@ -1,3 +1,17 @@
 h1 {
-    color: aqua;
+    color: black;
+    border: 5px  black solid;
+}
+h2 {
+    color: black; 
+    border: 5px black solid;
+border-style: solid;
+border-color: blue;
+border-radius: 5px;
+border-width: 5px;
+}
+
+#fondo {
+    background-color: rgba(255, green, blue);
+    opacity: 0.3;
 }
