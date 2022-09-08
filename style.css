@@ -1,17 +1,37 @@
 h1 {
     color: black;
     border: 5px  black solid;
+    background-color: aqua;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+
 }
-h2 {
+.fotoperfil {
+    font-size: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+
+
+}
+
+.infopersonal.h2 {
     color: black; 
     border: 5px black solid;
 border-style: solid;
 border-color: blue;
 border-radius: 5px;
 border-width: 5px;
+border-left: 5px;
 }
 
-#fondo {
-    background-color: rgba(255, green, blue);
-    opacity: 0.3;
+.infopersonal {
+    background-color: grey;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
 }
