@@ -9,6 +9,10 @@ h1 {
     padding: 8px;
 
 }
+h2{
+    border-style: groove;
+    border-right: 10cm;
+}
 .fotoperfil {
     font-size: 3em;
     display: flex;
