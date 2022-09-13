@@ -1,41 +1,75 @@
-h1 {
-    color: black;
-    border: 5px  black solid;
-    background-color: aqua;
+*{ margin: 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: rgb(23, 22, 22);
+    color: rgb(147, 151, 151);
     font-size: 3em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 8px;
+}
 
+img.logo {
+    width: 1,5em;
+    height: 13%;
+    max-height: 3em;
+    max-width: 3em;
+    margin: 0px 5px;
 }
-h2{
-    border-style: groove;
-    border-right: 10cm;
-}
-.fotoperfil {
-    font-size: 3em;
+
+.navbar{
+    background-color: red;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 8px;
-
-
+    flex-shrink: 0;
 }
 
-.infopersonal.h2 {
-    color: black; 
-    border: 5px black solid;
-border-style: solid;
-border-color: blue;
-border-radius: 5px;
-border-width: 5px;
-border-left: 5px;
+.buttons{
+  font-size: 25px;
+  list-style: none;
+  padding: 0px 15px;
 }
 
-.infopersonal {
-    background-color: grey;
-    border-style: solid;
-    border-color: red;
-    border-radius: 5px;
+li{
+    background-color: rgb(76, 71, 71);
+    margin: 30px 5px;
+    padding: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 30px 5px;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: rigth;
+}
+.foto{
+    width: 280px;
+    margin: 6% 50%;
+}
+
+.texto {
+    display: flex;
+    margin: 0 10%;
+    text-align:left
+    
+}
+
+
+.footer{
+    background-color: black;
+    height: 6em;
 }
